@@ -1,0 +1,25 @@
+{
+  "name": "musifi",
+  "version": "1.0.0",
+  "description": "Curso introductorio a MEAN STACK 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanDuran/Musifi.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mean",
+    "node",
+    "angular"
+  ],
+  "author": "Johan Duran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanDuran/Musifi/issues"
+  },
+  "homepage": "https://github.com/JohanDuran/Musifi#readme"
+}
