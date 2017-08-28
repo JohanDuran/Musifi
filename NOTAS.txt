@@ -1,0 +1,11 @@
+el package.json está completo con ejecutar npm install el se carga automatico
+
+npm start lanza un daemon para que se actualicen los cambios automaticamente.
+
+modelo define estructura de bd y se exporta.
+el controlador incluye en modelo
+la ruta incluye el controlador, para saber dada la ruta a cual funcion llamar.
+app incluye las rutas.
+el index incluye el app.
+
+index->app->routes->controlador->modelo
