@@ -15,7 +15,6 @@ function pruebas(req,res) {
 function saveUser(req,res){
     var user = new User();
     var params = req.body;
-    console.log(params);
 
     user.name = params.name;
     user.surname = params.surname;
@@ -127,7 +126,7 @@ function uploadImage(req,res) {
 
 function getImageFile(req,res) {
     var image_file = req.params.imageFile;
-    var path_file='./uploads/users/'+imageFile;
+    var path_file='./uploads/users/'+image_file;
     fs.exists(path_file,function(exists) {
         if(exists){
             res.sendFile(path.resolve(path_file));
